@@ -1,4 +1,4 @@
-> assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+>assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
 
 > myMean <- function(assignment2) { return(sum(assignment)/length(someData)) }
 
@@ -6,14 +6,14 @@
 But when we run the code it won't run instead it will give us this:
 
 > myMean(assignment2)
-"Error in myMean(assignment2) : object 'assignment' not found"
+"Error in myMean(assignment2): object 'assignment' not found"
 
 
 This is so because of undefined objects, it is mentioned that (sum(assignment)/length(someData)). 
 
-Here, we have not defined assignment and someData. So the code will not give the mean value as we have only one defined object myMean. 
+Here, we have not defined assignment and someData. So the code will not give the mean value as we have only one defined object 'myMean'. 
 
 
 To run it properly it should be written as:
 myMean<- function(assignment2) { return(sum(assignment2)/length(assignment2)) }
-So the result will be 19.25.
+So the result will be 19.25
