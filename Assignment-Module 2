@@ -15,5 +15,5 @@ Here, we have not defined assignment and someData. So the code will not give the
 
 
 To run it properly it should be written as:
-myMean<- function(assignment2) { return(sum(assignment2)/length(assignment2)) }
+> myMean<- function(assignment2) { return(sum(assignment2)/length(assignment2)) }
 So the result will be 19.25
