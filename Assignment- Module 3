@@ -1,0 +1,26 @@
+Assignment: 
+
+Name <- c("Jeb", “Donald”, "Ted”, “Marco” “Carly”, “Hillary”, “Berine”)
+> ABC political poll results <- c(4, 62 51, 21, 2, 14, 15)
+> CBS political poll results <- c(12, 75, 43, 19, 1, 21, 19) 
+
+# Every value in varible should be seperated by a comma.
+Name <- c("Jeb", “Donald”, "Ted”, “Marco” “Carly”, “Hillary”, “Berine”) #Marco and Carly should have a comma.
+Name <- c("Jeb", "Donald", "Ted", "Marco", "Carly", "Hillary", "Berine")
+
+ABC political poll results <- c(4, 62 51, 21, 2, 14, 15) #62 and 51 should have a comma. 
+ABC political poll results <- c(4, 62, 51, 21, 2, 14, 15)
+
+# Variable name cannot have a space.
+# Rewritten as ABC_political_poll_results and CBS_political_poll_results
+
+> Name<- c('Jeb', 'Donald', 'Ted', 'Marco','Carly', 'Hillary', 'Berine')
+
+# Here I renamed political polls to ABC_poll_results and CBS_poll_results
+> ABC_poll_results<- c(4, 62, 51, 21, 2, 14, 15)
+> CBS_poll_results<-c(12, 75, 43, 19, 1, 21, 19)
+
+# Creating a data frame for better understanding, visualization and analysis of data
+>df<- data.frame(cbind(Name,ABC_poll_results,CBS_poll_results))
+>df
+>class(df) #To check the class
