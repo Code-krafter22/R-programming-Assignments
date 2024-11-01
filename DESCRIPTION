@@ -1,0 +1,12 @@
+Package: GCcalculator
+Type: Package
+Title: GC_Content_Calculator
+Version: 0.1.0
+Author: Kashvi Shah <kashvishah4@gmail.com>
+Maintainer: Kashvi Shah <kashvishah4@gmail.com>
+Description: Provides a tool to calculate the GC content (percentage of guanine 
+and cytosine) in DNA sequences, which is useful in various bioinformatics analyses.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
